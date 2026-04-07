@@ -29,7 +29,7 @@ This project focuses on system telemetry from compute nodes and applies machine 
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # macOS/Linux
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -59,9 +59,6 @@ The generated dataset includes:
 
 ## Outputs
 
-- `outputs/regression_metrics.json`
-- `outputs/classification_metrics.json`
-- `outputs/anomaly_summary.json`
 - `outputs/cpu_prediction_scatter.png`
 - `outputs/feature_importance.png`
 - `outputs/anomaly_scores.png`
